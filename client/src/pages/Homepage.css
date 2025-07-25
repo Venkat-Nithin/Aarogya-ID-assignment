@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: white;
+}
+
+.layout-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.full-svg {
+  width: 100%;
+  max-width: 1200px;
+  height: 100%;
+}
+
+.rotating-arrow {
+  transform-origin: 550px 300px;
+  animation: spin 3s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.merge-to-circle-arrow {
+  animation: input-line-arrow 1.5s linear infinite;
+  transform-origin: center;
+}
+
+@keyframes input-line-arrow {
+  from {
+    transform: translate(350px, 300px) rotate(0deg);
+  }
+  to {
+    transform: translate(450px, 300px) rotate(0deg);
+  }
+}
+
+.circle-to-phone-arrow {
+  animation: output-line-arrow 1.5s linear infinite;
+  transform-origin: center;
+}
+
+@keyframes output-line-arrow {
+  from {
+    transform: translate(800px, 300px) rotate(0deg);
+  }
+  to {
+    transform: translate(950px, 300px) rotate(0deg);
+  }
+}
