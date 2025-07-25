@@ -36,3 +36,32 @@ This is a full-stack web application built with React, Express.js, and MongoDB. 
     - `GET /api/documents`: Retrieves all documents with full details.
     - `POST /api/documents`: Saves a new document to the database.
     - `GET /api/documents/:id`: Retrieves a single document by ID.
+   
+    ### Setup Instructions
+
+#### 1. Clone the Repository
+
+- in bash:
+  - git clone https://github.com/your-username/aarogya-id-assignment.git
+  - cd aarogya-id-assignment
+
+#### 2. Set Up the Backend
+
+- in bash:
+  - cd server
+  - npm install
+- Create a .env file inside the server/ folder and add: MONGO_URL=your_mongodb_connection_string
+- Start the backend server: node index.js
+
+#### 3. Set Up the Frontend
+
+- in terminal:
+  - cd ../client
+  - npm install
+  - npm run dev
+
+Now the app should be running locally on:
+
+- Frontend: http://localhost:5173
+
+- Backend: http://localhost:8080
