@@ -47,7 +47,7 @@ This is a full-stack web application built with React, Express.js, and MongoDB. 
 
 #### 2. Set Up the Backend
 
-- in bash:
+- in terminal:
   - cd server
   - npm install
 - Create a .env file inside the server/ folder and add: MONGO_URL=your_mongodb_connection_string
