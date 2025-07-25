@@ -36,8 +36,8 @@ This is a full-stack web application built with React, Express.js, and MongoDB. 
     - `GET /api/documents`: Retrieves all documents with full details.
     - `POST /api/documents`: Saves a new document to the database.
     - `GET /api/documents/:id`: Retrieves a single document by ID.
-   
-    ### Setup Instructions
+
+### Setup Instructions
 
 #### 1. Clone the Repository
 
